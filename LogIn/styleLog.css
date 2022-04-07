@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.Header {
+    //position: relative;
+    display: flex;
+    //justify-content: flex-end;
+    width: 100%;
+    left: 5%;
+    height: 20%;
+    flex-wrap: wrap;
+    background-color: rgb(196, 169, 134);
+}
+
+#menuM {
+    display: flex;
+    flex-direction: row;
+    //  width: 990px;
+    min-height: 30px;
+    flex-wrap: wrap;
+}
+
+#menuM ul li img {
+    height: 80px;
+    width: 130px;
+    margin: 7px;
+}
+
+#menuD {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    flex: 1;
+    width: 520px;
+    flex-wrap: wrap;
+    min-height: 15px;
+}
+
+#menuD ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#menuD ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+li :hover {
+    border-bottom: 2px solid black
+}
+
+.kutia {
+    width: 40%;
+    left: 30%;
+    min-height: 270px;
+    height: auto;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-image: linear-gradient(45deg, #1a8d67, #17be63);
+    margin-top: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.log-reg {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+.log-reg a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid grey;
+}
+
+.log-rega:first-child {
+    border-right: 2px solid grey;
+}
+
+.log-reg>a:hover {
+    background-color: #34ebab;
+    transition: all 0.2s ease;
+}
+
+.forma-style {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.forma-style label {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.forma-style .input {
+    margin-top: 10px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    border: 0px;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #cae0d9;
+}
+
+.forma {
+    height: auto;
+}
+
+#submit {
+    background-color: #28a745;
+    margin-bottom: 30px;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: purple;
+    flex-wrap: wrap;
+    position: absolute;
+    display: block;
+}
+
+.fundi {
+    margin: auto;
+    width: 70%;
+    display: ro;
+    flex-wrap: wrap;
+}
+
+.fundi ul {
+    width: 50%;
+    display: block;
+    text-decoration: none;
+}
+
+.fundi ul li {
+    margin: 10px;
+}
+
+.fundi ul a {
+    color: black;
+}
+
+.fundi ul li img {
+    height: 50px;
+    width: 130px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    #menuM ul li img {
+        width: 200px;
+        height: 100px;
+        text-decoration: none;
+    }
+    #menuD ul li {
+        list-style: none;
+        font-size: 30px;
+    }
+    #menuD {
+        text-align: center;
+        align-items: center;
+        width: auto;
+    }
+    #shkrimi {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    #menuM ul li img {
+        width: 200px;
+        height: 100px;
+        text-decoration: none;
+    }
+    #menuD ul li {
+        list-style: none;
+        font-size: 30px;
+    }
+    #menuD {
+        text-align: center;
+        align-items: center;
+        width: auto;
+    }
+    .hyrja {
+        font-size: 10px;
+    }
+    #pershkrimi {
+        width: 670px;
+    }
+    .kutiat {
+        width: 60%;
+    }
+    #shkrimi {
+        font-size: 15px;
+    }
+}

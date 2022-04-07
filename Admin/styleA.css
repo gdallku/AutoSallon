@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.Header {
+    display: flex;
+    //justify-content: flex-end;
+    width: 100%;
+    left: 5%;
+    height: 20%;
+    flex-wrap: wrap;
+    background-color: rgb(196, 169, 134);
+}
+
+#menuM {
+    display: flex;
+    flex-direction: row;
+    //width: 990px;
+    min-height: 30px;
+}
+
+#menuM ul li img {
+    height: 80px;
+    width: 130px;
+    margin: 7px;
+}
+
+#menuD {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    flex: 1;
+    width: 520px;
+    flex-wrap: wrap;
+    min-height: 15px;
+}
+
+#menuD ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#menuD ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+li :hover {
+    border-bottom: 2px solid black
+}
+
+.Admin-Panel {
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: #795548;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.Admin-Panel h1 .material-icons {
+    font-size: 40px;
+    color: yellow;
+    margin-left: 1.5%;
+}
+
+.Admin-Panel h1 {
+    color: rgb(248, 242, 242);
+    background-color: #0b0997;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Admin-Panel h3 {
+    padding: 10px;
+    border-radius: 3px;
+    width: 25%;
+    color: white;
+    background-color: #4c8baf;
+    margin-top: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.GUI {
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: #795548;
+    width: 80%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.kutia1 {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.GUI h1 .material-icons {
+    font-size: 40px;
+    color: yellow;
+    margin-left: 1.5%;
+}
+
+.GUI h1 {
+    color: rgb(248, 242, 242);
+    background-color: #0b0997;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.GUI h3 {
+    padding: 10px;
+    border-radius: 3px;
+    width: 25%;
+    color: white;
+    background-color: #4c8baf;
+    margin-top: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.KutiaGiu {
+    border-radius: 5px;
+    background-color: #823607;
+    padding: 20px;
+    width: 90%;
+    flex-wrap: wrap;
+    /* display: block; */
+    /* margin-left: 4.5%; */
+    margin-bottom: 2%;
+}
+
+.KutiaGiuup {
+    border-radius: 5px;
+    background-color: #823607;
+    padding: 20px;
+    width: 90%;
+    height: 63%;
+    flex-wrap: wrap;
+    /* display: block; */
+    /* margin-left: 4.5%; */
+    /* margin-bottom: 2%; */
+}
+
+.KutiaGiu .pe {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.KutiaGiu .con {
+    width: 99%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.KutiaGiu h2 {
+    border-bottom: rgb(255, 255, 255) solid 1px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 4%;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.KutiaGiu .more {
+    margin-left: 1px;
+}
+
+.KutiaGiu #Upload {
+    padding: 10px;
+    margin-top: 45px;
+    width: 20%;
+    float: right;
+    color: rgb(255, 255, 255);
+    background-color: rgb(19 116 49);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.KutiaGiu #Upload:hover {
+    color: rgb(255, 255, 255);
+    background-color: rebeccapurple;
+    transition: all 1s;
+}
+
+.KutiaGiu #subject {
+    width: 99%;
+    margin-top: 1%;
+}
+
+.KutiaGiuup .up {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.KutiaGiuup .update {
+    width: 99%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.KutiaGiuup h2 {
+    border-bottom: rgb(255, 255, 255) solid 1px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 4%;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.KutiaGiuup .moreup {
+    margin-left: 1px;
+}
+
+.KutiaGiuup #update {
+    padding: 10px;
+    margin-top: 93px;
+    width: 20%;
+    float: right;
+    color: rgb(255, 255, 255);
+    background-color: rgb(19 116 49);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.KutiaGiuup #update:hover {
+    color: rgb(255, 255, 255);
+    background-color: rebeccapurple;
+    transition: all 1s;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr {
+    background-color: #7179488c;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #823607;
+    color: white;
+}
+
+.Kategoria>h1 {
+    padding-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    position: relative;
+    width: max-content;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: #804100e0;
+    flex-wrap: wrap;
+    position: absolute;
+    // display: block;
+}
+
+.fundi {
+    margin: auto;
+    width: 70%;
+    //display: block;
+    flex-wrap: wrap;
+    // justify-content: center;
+}
+
+.fundi div {
+    width: 115%;
+    display: flex;
+    text-decoration: none;
+    margin: 6px;
+    // flex-wrap: wrap;
+}
+
+#lincet {
+    display: inline;
+}
+
+#shkrimi {
+    display: inline;
+}
+
+.fundi div li {
+    margin: 2px;
+}
+
+.fundi div a {
+    color: black;
+}
+
+.fundi dl img {
+    height: 50px;
+    width: 130px;
+    margin-right: 7px;
+    margin-top: 10px;
+}
+
+.fundi dl {
+    margin-left: 12px;
+}
